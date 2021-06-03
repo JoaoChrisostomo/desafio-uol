@@ -1,35 +1,40 @@
 # Desafio Análise Automação Web
 
-**Você deverá:**
-1. Completar os cenários que estão somente com título dentro da pasta **features/spec**, utilizando Gherkin;
-2. Acessar a página http://automationpractice.com, inspecionar e mapear os elementos de acordo com os mapeamentos esperados para as páginas Home e Login, que estão dentro da pasta **features/pages**;
-3. Criar os Steps para o Gherkin que foi descrito no primeiro passo, montando a lógica necessária para implementar as ações e validações.
 
-**Diferenciais:** 
-- Projeto com os testes executáveis, seguindo a estrutura de exemplo;
+
+#### Descrição do Desafio 📃 
+
+1)Completar os cenários que estão somente com título dentro da pasta ***\*features/spec\****, utilizando Gherkin;
+
+2) Acessar a página http://automationpractice.com, inspecionar e mapear os elementos de acordo com os mapeamentos esperados para as páginas Home e Login, que estão dentro da pasta ***\*features/pages\****;
+
+3)Criar os Steps para o Gherkin que foi descrito no primeiro passo, montando a lógica necessária para implementar as ações e validações.
+
+#### Diferenciais 🥇
+
 - Implementar cenário extra de adição de produto ao carrinho;
 
-**Dicas:** 
-- Mesmo não conseguindo finalizar 100% do projeto, nos envie mesmo assim. Nós avaliamos diversos itens, como: lógica, estrutura e conhecimentos nas ferramentas.
-- O projeto não precisa necessariamente ser executável, o mais importante é mostrar o conhecimento para escrita de cenários, mapeamento de elementos e lógica para implementação, então descreva os steps da melhor maneira possível, sem se preocupar com sintaxe.
+#### Resumo das alterações :star:
 
-------------
+Na inspeção dos elemento, implementações e validações dos Steps fiz como se fosse a linguagem Java por ser a que tenho mais conhecimento. Ainda sim, estou sempre disposto a aprender.
 
-## Sobre a execução do projeto: 
-Para a realização deste desafio, é somente necessário um editor de texto, **não esperamos um código executável**, contudo, caso você deseje executar o projeto, pode seguir os passos abaixo.
+## Alterações
 
-Para poder executar, você deverá ter:
-- Ruby >= 2.5.x;
-- Chrome e Chromedriver na última versão estável.
+:writing_hand: ​Completei os cenários utilizando a linguagem Gherkin;
 
-Comandos a serem executados a partir da raíz do projeto:
+:writing_hand: ​Implementei um cenário de adicionar produto no carrinho;
 
-Instalar as dependências:
-```ruby
-bundle install
-```
+:writing_hand: Foi feita a inspeção dos elementos e também inseri os elementos faltantes; 
 
-Executar o projeto - teste de carregamento básico:
-```ruby
-bundle exec cucumber -p default -t@buscar_por_termo_valido
-```
+:writing_hand: Implementei as ações e validações na pasta steps_definitions;
+
+:writing_hand: O assertEquals  é a validação que se encontra no final de cada caso de teste;
+
+
+
+
+
+
+
+
+
