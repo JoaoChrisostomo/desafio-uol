@@ -1,4 +1,5 @@
 Dado("que eu esteja no site{string}")
+    @home_page.load
 	public void que_eu_esteja_no(String appUrl)  {
 	metodos.abrirNavegador(appUrl);
 	driver.manage().window().maximize();
@@ -6,6 +7,7 @@ Dado("que eu esteja no site{string}")
 end
 
 Quando("clicar em login") {
+	@home_page.search(query)
 	metodos.click(element.btn_go_to_sign_in());
  }
 end
@@ -31,6 +33,7 @@ Então("validar login") {
 end
 
 Dado("que eu esteja no site{string}") {
+	@home_page.load
 	public void que_eu_esteja_no(String appUrl)  
 	metodos.abrirNavegador(appUrl);
 	driver.manage().window().maximize();
@@ -38,6 +41,7 @@ Dado("que eu esteja no site{string}") {
 end
 
 Quando("clicar em login") {
+	@home_page.search(query)
 	metodos.click(element.btn_go_to_sign_in());
  }
 end

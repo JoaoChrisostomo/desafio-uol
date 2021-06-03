@@ -43,6 +43,7 @@ end
 
 Então("deve me retorna resultado nao encontrado") do {
    assert.AssertEquals("No results were found for your search \"sapato\"", element.produto_nao_encontrado.getText);
+   metodos.fecharNavegador();
 
  }
 end
@@ -80,7 +81,7 @@ end
 Então("confirmar produto inserido") do {
   
    assert.AssertEquals("Product successfully added to your shopping cart", element.icon_ok.getText);
-   )
+   metodos.fecharNavegador().
 
 
 }
